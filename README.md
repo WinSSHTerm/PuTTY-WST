@@ -2,10 +2,10 @@
 A fork of Simon Tatham's SSH client [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) for use with WinSSHTerm 2.41.0 or higher.
 
 ## Changes
+![Scroll Demonstration](scroll_demo.gif)
 * Scroll behaviour similar to Windows Terminal (mouse wheel and trackpad)
 * Change font size with CTRL+MOUSEWHEEL
-
-![Scroll Demonstration](scroll_demo.gif)
+* Prevent weird terminal behaviour on Windows systems that support Modern Standby (see [issue](https://github.com/WinSSHTerm/PuTTY-WST/issues/1))
 
 ## How to build PuTTY-WST
 ### Sample Setup
