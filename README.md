@@ -6,6 +6,7 @@ A fork of Simon Tatham's SSH client [PuTTY](https://www.chiark.greenend.org.uk/~
 * Scroll behaviour similar to Windows Terminal (mouse wheel and trackpad)
 * Change font size with CTRL+MOUSEWHEEL
 * Prevent weird terminal behaviour on Windows systems that support Modern Standby (see [issue](https://github.com/WinSSHTerm/PuTTY-WST/issues/1))
+* Paste from clipboard is now executed on the main thread (originally a background thread is used which might cause race a condition)
 
 ## How to build PuTTY-WST
 ### Sample Setup
